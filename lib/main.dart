@@ -6,6 +6,8 @@ import 'package:staylogy/screens/my_drawer.dart';
 import 'package:staylogy/screens/product_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'screens/appBar.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -82,9 +84,14 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         shadowColor: Colors.indigo,
         bottomOpacity: 100,
         //leading: Container(),
-        title: Padding(
-          padding: const EdgeInsets.fromLTRB(0,100,0,100),
-          child: Image.asset('assets/images/logo.png', width: 100, height: 50,),
+        title: InkWell(
+          onTap: () {
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => ProductDetails()));
+          },
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(0,100,0,100),
+            child: Image.asset('assets/images/logo.png', width: 100, height: 50,),
+          ),
         ),
         actions: [
           Padding(padding: EdgeInsets.all(15.0),
