@@ -95,6 +95,15 @@ flutter:
     - assets/images/antibacterial.png
     - assets/images/hand-washing.png
     - assets/images/temp.png
+    - assets/images/bike-parking.png
+    - assets/images/casino-cctv.png
+    - assets/images/cinema-screen.png
+    - assets/images/dining-table.png
+    - assets/images/handle.png
+    - assets/images/security-guard.png
+    - assets/images/tools.png
+    - assets/images/waiting-room.png
+    - assets/images/house-cleaning.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

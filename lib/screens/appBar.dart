@@ -69,7 +69,7 @@ class _ProductDetailsState extends State<ProductDetails>
               SingleChildScrollView(
                 child: Column(
                   children: <Widget>[
-                    SizedBox(height: 50,),
+                    SizedBox(height: 130,),
                     Container(
                       padding: EdgeInsets.fromLTRB(60, 0, 60, 0),
                       child: Text("Lorem lpsum", textAlign: TextAlign.center ,style: TextStyle(color: Colors.amber, fontSize: 25,),),
@@ -1255,15 +1255,12 @@ class _ProductDetailsState extends State<ProductDetails>
                     backgroundColor: _colorTween.value,
                     elevation: 0,
                     titleSpacing: 0.0,
-                    title: Transform.translate(
-                      offset: _transTween.value,
-                      child: Text(
-                        "Hey",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16),
-                      ),
+                    title: Text(
+                      "Hey",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16),
                     ),
                     iconTheme: IconThemeData(
                       color: _iconColorTween.value,
@@ -1287,7 +1284,6 @@ class _ProductDetailsState extends State<ProductDetails>
                   ),
                 ),
               ),
-
             ],
           ),
         ),
