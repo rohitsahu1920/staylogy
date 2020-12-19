@@ -848,7 +848,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.all(20),
+                      padding: EdgeInsets.all(10),
                       color: Colors.white,
                       child: Column(
                         children: [
@@ -1891,17 +1891,47 @@ imageSliderfour(context){
           children: [
             Row(
               children: [
-                Card(
-                  semanticContainer: true,
-                  clipBehavior: Clip.antiAliasWithSaveLayer,
-                  child: Image.asset(
-                    imageListfour[index],
-                    fit: BoxFit.fill,
-                  ),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(100.0),
-                  ),
-                  elevation: 5,
+                Stack(
+                  children: [
+
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                      child: Container(
+                        //color: Colors.amber,
+                        height: 210,
+                        width: 210,
+                        child: Card(
+                          color: Colors.amber,
+                          child: Text('1'),
+                          //color: Colors.amber,
+                          semanticContainer: true,
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(100.0),
+                          ),
+                          elevation: 5,
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(5.0),
+                      child: Container(
+                        child: Card(
+                          semanticContainer: true,
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          child: Image.asset(
+                            imageListfour[index],
+                            fit: BoxFit.fill,
+                          ),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(100.0),
+                          ),
+                          elevation: 5,
+                        ),
+                      ),
+                    ),
+
+                  ],
                 ),
                 SizedBox(width: 10,),
                 Column(
@@ -1954,7 +1984,7 @@ imageSliderfour(context){
     itemCount: 4,
     viewportFraction: 1.0,
     scale: 0.5,
-    pagination: new SwiperPagination(),
+    pagination: new SwiperPagination(builder: new DotSwiperPaginationBuilder(color: Colors.black26, activeColor: Color(0xffED6D6D))),
     //control: new SwiperControl(),
   );
 

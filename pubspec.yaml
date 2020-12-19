@@ -104,6 +104,22 @@ flutter:
     - assets/images/tools.png
     - assets/images/waiting-room.png
     - assets/images/house-cleaning.png
+    - assets/images/wifi.png
+    - assets/images/air-conditioner.png
+    - assets/images/badminton.png
+    - assets/images/bed.png
+    - assets/images/cupboard.png
+    - assets/images/exercise.png
+    - assets/images/fridge.png
+    - assets/images/gas-stove.png
+    - assets/images/geyser.png
+    - assets/images/joystick.png
+    - assets/images/landscape.png
+    - assets/images/man.png
+    - assets/images/parking.png
+    - assets/images/poker-cards.png
+    - assets/images/to-go-cup.png
+    - assets/images/wireless-charging.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
