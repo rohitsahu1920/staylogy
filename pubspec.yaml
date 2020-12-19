@@ -120,6 +120,9 @@ flutter:
     - assets/images/poker-cards.png
     - assets/images/to-go-cup.png
     - assets/images/wireless-charging.png
+    - assets/images/food.png
+    - assets/images/key.png
+    - assets/images/money.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

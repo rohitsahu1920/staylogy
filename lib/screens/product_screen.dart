@@ -1312,7 +1312,8 @@ class _productState extends State<product> with TickerProviderStateMixin{
                                   child: Padding(
                                     padding: EdgeInsets.all(20),
                                     child: Image.asset(
-                                      'assets/images/protection.png',
+                                      'assets/images/money.png',
+                                      color: Colors.amber,
                                       fit: BoxFit.fitHeight,
                                     ),
                                   ),
@@ -1327,19 +1328,290 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("Far more cost effective than hostels & PG accommodations as the rentals are affordable and the spaces are luxurious.", style: TextStyle(color: Colors.black, fontSize: 15,),),
                                     ),
                                   ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/armchair.png',
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 220,
                                     child: Align(
                                       alignment: Alignment.centerLeft,
-                                      child: Text("Resort & Spa Shekvetili, Autograph Collection. Beachfront. Property is on or right next to the beach.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                      child: Text("Co-living brings together multiple cohorts of people in a shared space that still offers privacy.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/key.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("You’re not bound to stay here for long durations (unless you wish to).", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/home-delivery.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("Suited for those who move cities often for work, are freelancers and not bound by any location.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/food.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("A host of amenities and services give it a hotel-like vibe, while still making it a home.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/exercise.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("Co-living spaces also offer health and wellness activities along with entertainment in the form of events and get-togethers.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/dining-table.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("You get a premium, luxurious lifestyle without breaking the bank.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 120,
+                                height: 120,
+                                child: Card(
+                                  semanticContainer: true,
+                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  child: Padding(
+                                    padding: EdgeInsets.all(20),
+                                    child: Image.asset(
+                                      'assets/images/handle.png',
+                                      color: Colors.amber,
+                                      fit: BoxFit.fitHeight,
+                                    ),
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                  ),
+                                  elevation: 5,
+                                  margin: EdgeInsets.all(10),
+                                ),
+                              ),
+                              SizedBox(width: 10,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                  SizedBox(height: 10,),
+                                  Container(
+                                    width: 220,
+                                    child: Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text("Quick and easy bookings and check-outs make the process swift and likeable.", style: TextStyle(color: Colors.black, fontSize: 15,),),
                                     ),
                                   ),
                                 ],
@@ -1358,6 +1630,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
                                     padding: EdgeInsets.all(20),
                                     child: Image.asset(
                                       'assets/images/protection.png',
+                                      color: Colors.amber,
                                       fit: BoxFit.fitHeight,
                                     ),
                                   ),
@@ -1372,109 +1645,13 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
+
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 220,
                                     child: Align(
                                       alignment: Alignment.centerLeft,
-                                      child: Text("Resort & Spa Shekvetili, Autograph Collection. Beachfront. Property is on or right next to the beach.", style: TextStyle(color: Colors.black, fontSize: 15,),),
-                                    ),
-                                  ),
-                                ],
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Container(
-                                width: 120,
-                                height: 120,
-                                child: Card(
-                                  semanticContainer: true,
-                                  clipBehavior: Clip.antiAliasWithSaveLayer,
-                                  child: Padding(
-                                    padding: EdgeInsets.all(20),
-                                    child: Image.asset(
-                                      'assets/images/protection.png',
-                                      fit: BoxFit.fitHeight,
-                                    ),
-                                  ),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(50.0),
-                                  ),
-                                  elevation: 5,
-                                  margin: EdgeInsets.all(10),
-                                ),
-                              ),
-                              SizedBox(width: 10,),
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
-                                  SizedBox(height: 10,),
-                                  Container(
-                                    width: 220,
-                                    child: Align(
-                                      alignment: Alignment.centerLeft,
-                                      child: Text("Resort & Spa Shekvetili, Autograph Collection. Beachfront. Property is on or right next to the beach.", style: TextStyle(color: Colors.black, fontSize: 15,),),
-                                    ),
-                                  ),
-                                ],
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Container(
-                                width: 120,
-                                height: 120,
-                                child: Card(
-                                  semanticContainer: true,
-                                  clipBehavior: Clip.antiAliasWithSaveLayer,
-                                  child: Padding(
-                                    padding: EdgeInsets.all(20),
-                                    child: Image.asset(
-                                      'assets/images/protection.png',
-                                      fit: BoxFit.fitHeight,
-                                    ),
-                                  ),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(50.0),
-                                  ),
-                                  elevation: 5,
-                                  margin: EdgeInsets.all(10),
-                                ),
-                              ),
-                              SizedBox(width: 10,),
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
-                                  SizedBox(height: 10,),
-                                  Container(
-                                    width: 220,
-                                    child: Align(
-                                      alignment: Alignment.centerLeft,
-                                      child: Text("Resort & Spa Shekvetili, Autograph Collection. Beachfront. Property is on or right next to the beach.", style: TextStyle(color: Colors.black, fontSize: 15,),),
+                                      child: Text("Safe space for women.", style: TextStyle(color: Colors.black, fontSize: 15,),),
                                     ),
                                   ),
                                 ],
@@ -1486,22 +1663,29 @@ class _productState extends State<product> with TickerProviderStateMixin{
                       ),
                     ),
                     Container(
+                      color: Colors.white,
                       padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                       child: Column(
                         children: [
                           SizedBox(height: 10,),
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Container(
-                              //padding: const EdgeInsets.all(5),
-                              child: Text("Save More", style: TextStyle(color: Colors.black, fontSize: 20,),),
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: Container(
+                                //padding: const EdgeInsets.all(5),
+                                child: Text("Save More", style: TextStyle(color: Colors.black, fontSize: 20,),),
+                              ),
                             ),
                           ),
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Container(
-                              padding: const EdgeInsets.all(0),
-                              child: Text("With Staylogy", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: Container(
+                                padding: const EdgeInsets.all(0),
+                                child: Text("With Staylogy", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                              ),
                             ),
                           ),
                           SizedBox(height: 10,),
@@ -1664,13 +1848,16 @@ class _productState extends State<product> with TickerProviderStateMixin{
                                     ),
                                   ],
                                 ),
+
                               ],
                             ),
-                          )
+                          ),
+                          SizedBox(height: 40,)
                         ],
                       ),
                     ),
                     Container(
+                      color: Colors.white,
                       padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                       child: Column(
                         children: [
@@ -1706,13 +1893,13 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
+                                  // Align(
+                                  //   alignment: Alignment.centerLeft,
+                                  //   child: Container(
+                                  //     //padding: const EdgeInsets.all(5),
+                                  //     child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                                  //   ),
+                                  // ),
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 250,
@@ -1749,13 +1936,13 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
+                                  // Align(
+                                  //   alignment: Alignment.centerLeft,
+                                  //   child: Container(
+                                  //     //padding: const EdgeInsets.all(5),
+                                  //     child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                                  //   ),
+                                  // ),
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 250,
@@ -1792,13 +1979,13 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
+                                  // Align(
+                                  //   alignment: Alignment.centerLeft,
+                                  //   child: Container(
+                                  //     //padding: const EdgeInsets.all(5),
+                                  //     child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                                  //   ),
+                                  // ),
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 250,
@@ -1835,13 +2022,13 @@ class _productState extends State<product> with TickerProviderStateMixin{
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Container(
-                                      //padding: const EdgeInsets.all(5),
-                                      child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
-                                    ),
-                                  ),
+                                  // Align(
+                                  //   alignment: Alignment.centerLeft,
+                                  //   child: Container(
+                                  //     //padding: const EdgeInsets.all(5),
+                                  //     child: Text("Advantages", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold ),),
+                                  //   ),
+                                  // ),
                                   SizedBox(height: 10,),
                                   Container(
                                     width: 250,
@@ -1861,7 +2048,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
                     Container(
                       color: Colors.amber,
                       child: Container(
-                        padding: EdgeInsets.fromLTRB(20,0,0,0),
+                        padding: EdgeInsets.fromLTRB(10,0,0,0),
                         child: Column(
                           children: [
                             SizedBox(height: 20,),
@@ -2139,7 +2326,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.all(20),
+                      padding: EdgeInsets.all(10),
                       color: Colors.white,
                       child: Column(
                         children: [
@@ -2180,6 +2367,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
                       ),
                     ),
                     Container(
+                      color: Colors.white,
                       padding: EdgeInsets.all(20),
                       child: Column(
                         children: [
@@ -2327,83 +2515,83 @@ class _productState extends State<product> with TickerProviderStateMixin{
                         ],
                       ),
                     ),
-                    Container(
-                      color: Colors.white,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(20,0,20,0),
-                        child: Column(
-                          children: [
-                            Row(
-                              children: [
-                                Expanded(
-                                  child: Card(
-                                    elevation: 5,
-                                    shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(30.0),
-                                        side: BorderSide(
-                                          color: Colors.white,
-                                          width: 1,
-                                        )
-                                    ),
-                                    color: Colors.white,
-                                    clipBehavior: Clip.antiAlias,
-                                    child: InkWell(
-                                      onTap: (){
-                                        launch('mailto:info@sparemtpl.com');
-                                      },
-                                      child: ListTile(
-                                        leading: Row(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            Padding(
-                                              padding: EdgeInsets.fromLTRB(10,10,0,10),
-                                              child: Image.asset('assets/images/booking.png'),
-                                            ),
-                                          ],
-                                        ),
-                                        title: const Text("Book Now", style: TextStyle(color: Colors.black, fontSize: 13, fontWeight: FontWeight.bold),),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                Expanded(
-                                  child: Card(
-                                    elevation: 5,
-                                    shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(30.0),
-                                        side: BorderSide(
-                                          color: Colors.white,
-                                          width: 1,
-                                        )
-                                    ),
-                                    color: Colors.white,
-                                    clipBehavior: Clip.antiAlias,
-                                    child: InkWell(
-                                      onTap: (){
-                                        launch('mailto:info@sparemtpl.com');
-                                      },
-                                      child: ListTile(
-                                        leading: Row(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            Padding(
-                                              padding: EdgeInsets.fromLTRB(10,10,0,10),
-                                              child: Image.asset('assets/images/calendar.png'),
-                                            ),
-                                          ],
-                                        ),
-                                        title: const Text("Schedule Visit", style: TextStyle(color: Colors.black, fontSize: 13, fontWeight: FontWeight.bold),),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                            SizedBox(height: 30,)
-                          ],
-                        ),
-                      ),
-                    ),
+                    // Container(
+                    //   color: Colors.white,
+                    //   child: Container(
+                    //     padding: EdgeInsets.fromLTRB(20,0,20,0),
+                    //     child: Column(
+                    //       children: [
+                    //         Row(
+                    //           children: [
+                    //             Expanded(
+                    //               child: Card(
+                    //                 elevation: 5,
+                    //                 shape: RoundedRectangleBorder(
+                    //                     borderRadius: BorderRadius.circular(30.0),
+                    //                     side: BorderSide(
+                    //                       color: Colors.white,
+                    //                       width: 1,
+                    //                     )
+                    //                 ),
+                    //                 color: Colors.white,
+                    //                 clipBehavior: Clip.antiAlias,
+                    //                 child: InkWell(
+                    //                   onTap: (){
+                    //                     launch('mailto:info@sparemtpl.com');
+                    //                   },
+                    //                   child: ListTile(
+                    //                     leading: Row(
+                    //                       mainAxisSize: MainAxisSize.min,
+                    //                       children: [
+                    //                         Padding(
+                    //                           padding: EdgeInsets.fromLTRB(10,10,0,10),
+                    //                           child: Image.asset('assets/images/booking.png'),
+                    //                         ),
+                    //                       ],
+                    //                     ),
+                    //                     title: const Text("Book Now", style: TextStyle(color: Colors.black, fontSize: 13, fontWeight: FontWeight.bold),),
+                    //                   ),
+                    //                 ),
+                    //               ),
+                    //             ),
+                    //             Expanded(
+                    //               child: Card(
+                    //                 elevation: 5,
+                    //                 shape: RoundedRectangleBorder(
+                    //                     borderRadius: BorderRadius.circular(30.0),
+                    //                     side: BorderSide(
+                    //                       color: Colors.white,
+                    //                       width: 1,
+                    //                     )
+                    //                 ),
+                    //                 color: Colors.white,
+                    //                 clipBehavior: Clip.antiAlias,
+                    //                 child: InkWell(
+                    //                   onTap: (){
+                    //                     launch('mailto:info@sparemtpl.com');
+                    //                   },
+                    //                   child: ListTile(
+                    //                     leading: Row(
+                    //                       mainAxisSize: MainAxisSize.min,
+                    //                       children: [
+                    //                         Padding(
+                    //                           padding: EdgeInsets.fromLTRB(10,10,0,10),
+                    //                           child: Image.asset('assets/images/calendar.png'),
+                    //                         ),
+                    //                       ],
+                    //                     ),
+                    //                     title: const Text("Schedule Visit", style: TextStyle(color: Colors.black, fontSize: 13, fontWeight: FontWeight.bold),),
+                    //                   ),
+                    //                 ),
+                    //               ),
+                    //             ),
+                    //           ],
+                    //         ),
+                    //         SizedBox(height: 30,)
+                    //       ],
+                    //     ),
+                    //   ),
+                    // ),
                     Container(
                       color: Colors.indigo,
                       child: Align(
@@ -2511,7 +2699,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
 
                             ),
                           ),
-                          SizedBox(height: 20,)
+                          SizedBox(height: 100,)
                         ],
                       ),
                     ),
@@ -2523,6 +2711,7 @@ class _productState extends State<product> with TickerProviderStateMixin{
                 child: AnimatedBuilder(
                   animation: _ColorAnimationController,
                   builder: (context, child) => AppBar(
+                    automaticallyImplyLeading: false,
                     backgroundColor: _colorTween.value,
                     elevation: 0,
                     titleSpacing: 0.0,
